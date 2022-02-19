@@ -1,11 +1,11 @@
-/* app.addToolButton({
+app.addToolButton({
 cName: "many_functions_for_making_and_processing_PDF_furibans",
 cExec: "furiban_helper ()",
 cTooltext: "Lots of furiban functions",
 cLabel: "振番ヘルパー(2019.02)",
 cEnable: "event.rc = (event.target != null);",
 nPos: 3
-}); */
+}); 
 
 
 function OMU (up) {
@@ -135,7 +135,7 @@ app.trustedFunction(OMD);
 
 
 
-/* function OnMouseUp (up) {
+ function OnMouseUp (up) {
 	
 	this.addAnnot({
 			page: this.pageNum, 
@@ -185,7 +185,7 @@ function OnMouseDown () {
 	upper_left_x = this.mouseX
 	upper_left_y = this.mouseY
 	return [upper_left_x, upper_left_y];
-} */
+} 
 
 
 
